@@ -45,17 +45,22 @@ body{
 .presentacion__enlaces{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+
 }
 
 .presentacion__enlaces__link{
-    background-color: #22D4FD;
-    width: 280px;
+   
+    width: 378px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
+    border: 2px solid #22D4FD;
     font-size: 24px;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #000000;
+    color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
 }

@@ -34,6 +34,7 @@ body{
     background-color: #000000;
     color: #F6F6F6;
 }
+.presentacion__imagen{}
 
 
 .titulo-destaque {
@@ -108,4 +109,25 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     
+}
+@media (max-width: 1023px) {
+    .header {
+        padding: 10%; /* Ajusta según sea necesario */
+    }
+    .presentacion {
+        flex-direction: column-reverse;
+        /* Otras propiedades, si es necesario */
+    }
+    .presentacion__contenido{
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .presentacion__imagen{
+        width: 75%;
+    }
+    .presentacion__contenido__titulo{
+        padding-top: 20px;
+        font-size: 2rem;
 }

@@ -5,9 +5,31 @@
     padding: 0;
     margin:0;
 }
+.header{
+      padding: 2% 0% 0% 15%;
+
+
+}
+
+.header__menu{
+    display: flex;
+    gap: 80px;
+
+
+}
+
+
+.header__menu_link {
+    color: #22D4FD;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
 
 body{
-    height: 100vh;
+    
     box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
@@ -19,7 +41,7 @@ body{
 }
 
 .presentacion {
-    margin: 10% 15%;
+    padding: 7% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -63,4 +85,27 @@ body{
     text-decoration: none;
     color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
+    display: flex; /*le da la priopiedad flex para que todo este en un mismo eje*/
+    justify-content: center;  /*alinea todos los elementos al medio*/
+    gap: 10px; /*separa los elementos 10px entre si */
+}
+.presentacion_enlaces-subtitulo {
+
+    font-family: 'Krona One', sans-serif;
+    font-size: 24px;
+}
+
+.presentacion__enlaces__link:hover{    /*le el efecto hover a la clase nombrada para que cuando pasemos el mause ensima cambie el backgraund color*/
+        background-color: #272727;
+    }
+.footer {
+
+    background-color: #22D4FD;
+    color: #000000;
+    padding: 24px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    
 }
